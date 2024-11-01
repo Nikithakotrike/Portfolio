@@ -1,0 +1,36 @@
+
+.container {
+  max-width: 360px; /* Set the maximum width of the page */
+  margin: 0 auto;   /* Center the content horizontally */
+  padding: 20px;    /* Add some padding for spacing */
+}
+/* Header Styles */
+.header {
+  background-color: #f1faee; /* Set header background color to dark  to pagesss*/
+  /* padding: 1rem; Add padding around the header */
+}
+
+.navbar {
+  background-color:#f1faee;/* CDB4DB */
+  display:flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out navbar items */
+  align-items: center; /* Vertically center items */
+}
+nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color:#9c89b8; /* Text color */
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
+
+
