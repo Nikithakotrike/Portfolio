@@ -20,17 +20,17 @@ function About() {
           can find me Coloring ,Enjoying in outdoors,listening to Music and Reading Books or Travelling and Exploring 
           new places.I have an bachelors Degree in CSIT and worked as an BI developer .I am passionate about Research,
           Data Analysis,Design in my professional life which made me more intriuged in getting to pursue Msc in Interaction 
-          and experience design.I am ardent about solving problems by design and User Centric Solutions.
+          and experience design.I am ardent about solving problems by design and giving User Centric Solutions.
           </p>
         
         <h2>Work Experience and Projects</h2>
         <p>
-         I have 6 years of Work Experience as an BI Developer.My Day to Work activities include Analysing ,Processing and 
+         I have 6 years of Work Experience as an BI Developer.My Day to  day Work activities include Analysing ,Processing and 
          Cleaning of the data and make  Meaningful reports by using the BI tools like Tableau,PowerBI and QlikView
          through which the Users analyse their data.
                       I have Started my Journey with small startup company named OTSI and worked with tech Giants like Deloitte,
           TCS and TechMahindra.I worked in projects Related to the Telecomm Industry,HR Data,GE(General Electrics),Banking 
-          project like CITI Bank and created Reports which are used by the clients from Day to Day bases for data Analysis 
+          project like CITI Bank and created Reports which are used by the clients on Day to Day bases for data Analysis 
           and Critical Problem Solving which Provide Solutions by giving meaningful Insights about the data.
            </p>
 

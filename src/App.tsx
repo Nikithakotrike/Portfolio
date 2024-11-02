@@ -10,14 +10,15 @@ import Contact from "./Pages/Contact"
 function App() {
   return (
     <>
-      <header className="header">
+      <header className="header ">
+      <div className="logo-container">
+          <img className="imgLogo" src = "images/University Logo.jpeg" ></img >
+          </div>
         <nav className="navbar">
           <nav className="nav comp"></nav>
-          <div className="logo-container"></div>
-
           <ul className="nav-list">
           <li>
-              <Link to="/Home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/About">About</Link>
@@ -36,7 +37,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
-        <Route path="/Home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Skills" element={<Skills/>}/>
         <Route path="/Blog" element={<Blog/>}/>

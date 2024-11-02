@@ -1,39 +1,28 @@
 import './Skills.css';
 
 function Skills() {
-  return (
-    <div className="Skills-container">
-      <header className="Skills-header">
-        <h1>My Skills</h1>
-        <p>
-        </p>
-       
-      </header>
-      <div className="Skills-content">
-        <h2>BI Tools</h2>
-        <p>
-          1)Tableau
-          2)PoweBI
-          3)Qlik View
-        </p>
+  return (  
   
-        <h2>Analaysis and Data </h2>
-        <p>
-           1)Data Analysis
-           2)Data Cleaning
-           3)Data Validation
-        </p>
+<section id="Skills" className="Skills-body">
+<h2 className='Skills'> BI Tools:</h2>
+<p className="details animate-bounce animate-delay-100"> Tableau</p>
+<p className="details animate-bounce animate-delay-100"> PowerBI</p>
+<p className= "details animate-bounce animate-delay-100"> QlikView</p>
 
-       <h2>DB and Reporting  </h2>
-        <p>
-           1)SQL
-           2)Microsoft Excel
-           3)Word and PPT
-        </p>
+<h2 className='Skills'> Data Analytics:</h2>
+<p className="details animate-bounce animate-delay-10">Data Analysis and Research </p>
+<p className="details animate-bounce animate-delay-10">Trouble shooting</p> 
+<p className="details animate-bounce animate-delay-10">Data Interpretation </p>
 
-      </div>
-    </div>
+<h2 className='Skills'> Soft Skills:</h2>
+<p className="details animate-bounce animate-delay-10">Team Building </p>
+<p className="details animate-bounce animate-delay-10">Adaptability </p> 
+<p className="details animate-bounce animate-delay-10">Conflict Resolution </p>
+</section>
+
   );
 }
+
+
 
 export default Skills;

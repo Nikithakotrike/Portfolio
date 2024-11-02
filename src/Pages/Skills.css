@@ -1,40 +1,21 @@
+body{
+  diaplay:flex;
+}
 
-.skills-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
+.Skills {
+  font-family: "Delius Swash Caps", cursive;
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+ color:#605678;
+}
 
-  /* Heading styling */
-  .skills-container h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #f39c12;
-    padding-bottom: 0.5rem;
-  }
+.details {
+  font-family: "Twinkle Star", cursive;
+  text-align: center;
+  color:#789DBC;
+  font-size:150%;
+}
 
-  /* Paragraph styling */
-  .skills-container p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #666;
-    text-align: center;
-  }
 
-  /* Adjust for smaller screens */
-  @media (max-width: 768px) {
-    .about-container {
-      padding: 1rem;
-    }
 
-    .about-container h2 {
-      font-size: 1.5rem;
-    }
-
-    .about-container p {
-      font-size: 1rem;
-    }
-  }

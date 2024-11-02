@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 .about-container {
     width: 100%;
     margin: 0 auto;
@@ -34,7 +36,7 @@ align-items:centre;
     border-bottom: 2px solid #f1faee;
     padding-bottom: 0.5rem;
     background-color: #f1faee;
-
+    font-family: "Poppins", sans-serif;
   }
 
   /* Paragraph styling */
@@ -43,7 +45,7 @@ align-items:centre;
     line-height: 1.6;
     text-align: justify;
     background-color: #f1faee;
-
+    font-family: "Libre Caslon Display", serif;
   }
 
   .navbar{

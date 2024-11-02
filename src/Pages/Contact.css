@@ -11,14 +11,19 @@
     padding: 20px;
     text-align: center;
   }
-  
+ 
   .contact-container h2 {
    
     margin-bottom: 10px;
+
   }
   
   .contact-container p {
-   
     font-size: 1.1rem;
     margin-bottom: 20px;
+
+  }
+
+  .contact-content p{
+    color:#82A0D8;
   }

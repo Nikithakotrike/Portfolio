@@ -14,7 +14,7 @@
   background-color:#f1faee;/* CDB4DB */
   display:flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out navbar items */
-  align-items: center; /* Vertically center items */
+  align-items: center; /* Vertically center items */ 
 }
 nav-list {
   list-style: none;
@@ -24,6 +24,7 @@ nav-list {
 
 .nav-list li {
   display: inline;
+  align-items:right;
 }
 
 .nav-list a {
@@ -31,6 +32,14 @@ nav-list {
   color:#9c89b8; /* Text color */
   padding: 10px 20px;
   font-family: Arial, sans-serif;
+}
+.imgLogo
+{
+  text-align:left;
+  float:left;
+  height:40;
+  width:60;
+
 }
 
 
