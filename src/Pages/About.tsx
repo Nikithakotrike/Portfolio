@@ -1,4 +1,4 @@
-
+import img2 from '/src/images/AM2.jpg';
 import './About.css';
 function About() {
   return (
@@ -7,7 +7,7 @@ function About() {
     <div className="About-container container"></div>
             <div className="About-Left"></div>
            <div className = "About-img-box1"></div>
-           <img className="imgA" src = "images/AM2.jpg"></img>
+           <img className="imgA" src = {img2}></img>
 
     <div className="About-Right"></div>
       <header className="about-header"> 

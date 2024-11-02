@@ -1,4 +1,5 @@
 import "./App.css";
+import logo from '/src/images/University Logo.jpeg';
 import { Link } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
@@ -12,13 +13,13 @@ function App() {
     <>
       <header className="header ">
       <div className="logo-container">
-          <img className="imgLogo" src = "images/University Logo.jpeg" ></img >
+          <img className="imgLogo" src = {logo} ></img >
           </div>
         <nav className="navbar">
           <nav className="nav comp"></nav>
           <ul className="nav-list">
           <li>
-              <Link to="/">Home</Link>
+              <Link to="/Portfolio/">Home</Link>
             </li>
             <li>
               <Link to="/About">About</Link>
@@ -37,7 +38,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/Portfolio" element={<Home/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Skills" element={<Skills/>}/>
         <Route path="/Blog" element={<Blog/>}/>

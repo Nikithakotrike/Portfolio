@@ -1,4 +1,5 @@
 import "./Home.css"
+import img1 from '/src/images/C2.jpg';
 function Home() {
     return (
     
@@ -32,7 +33,7 @@ function Home() {
         </div>
         <div className="home-right"></div>
         <div className = "home-img-box1">
-        <img className="img1" src = "images/C2.jpg"></img>
+        <img className="img1" src = {img1}></img>
         </div>
       </div>
       
