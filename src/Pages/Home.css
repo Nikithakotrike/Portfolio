@@ -31,9 +31,8 @@
 .text-container{
   height:max-content;
   width:max-content;
+  text-align:center;
   overflow:hidden;
- 
-  ;
 }
 .text-top
   {
@@ -46,7 +45,7 @@
     animation-timing-function: ease-in;
     animation-delay: 0.25s;
     animation-iteration-count: 1;
-    height:200px;
+    height:210px;
     padding:7px;
     width:max;
     color:4c4c4c;
@@ -80,14 +79,8 @@
     animation-fill-mode:forwards; 
     color:4c4c4c;
   }
-.home-container
-  {
-display:grid;
-grid-template-columns:repeat(2, 1fr);
-gap:30px;
-align-items:center;
-
-  }
+  
+  @media screen and (min-width:1301px){
   .img1
   {
     float:right;
@@ -99,6 +92,46 @@ align-items:center;
     right:10;
     background-color:#f1faee;
   }
+  .home-left{width:50%}
+  .home-right{width:50%}
+  .home-container
+  {
+display:flex;
+gap:30px;
+align-items:center;
+justify-content:center;
+
+  }
+
+}
+/* ensures that .img1 works from 0 - 1300px
+ Object fit is set so that the images do not become dispropotionate*/
+@media screen and (max-width:1300px) 
+{
+  .img1
+  {
+    align-self:center;
+    width:70%;
+    border-color:red;
+    border-width:5px;
+    object-fit:cover;
+    border-radius:20%;
+    background-color:#f1faee;
+  }
+  .home-left{width:100%}
+  .home-right{width:100%; height:fit-content;}
+  .home-container
+  {
+display:flex;
+gap:30px;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+
+  }
+
+}
+
 
 /* .animated-title {
   color: #222;

@@ -11,7 +11,7 @@ function Contact() {
         <h2>Email</h2>
         <p><a href="mailto:24131474@studentmail.ul.ie">24131474@studentmail.ul.ie</a></p>
         <h2>LinkedIn</h2>
-        <p><a href="https://www.linkedin.com/in/kotrike-nikitha-8225b0284/">https://www.linkedin.com/feed/</a></p>
+        <p><a href="https://www.linkedin.com/in/kotrike-nikitha-8225b0284/" target='_blank'>https://www.linkedin.com/feed/</a></p>
         <h2>Mobile Number</h2>
         <p>+353 0894854126</p>
         

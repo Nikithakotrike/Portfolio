@@ -5,8 +5,8 @@ function Home() {
     
          <div className="fullHeightContainer">
             <section className="home" id="Home"></section>
-            <div className="home-container container"></div>
-            <div className="home -left"></div>
+            <div className="home-container">
+            <div className="home-left">
         <div className="animated-title">
           <div className="text-container">
           <div className="text-top">Hello,</div>
@@ -31,9 +31,10 @@ function Home() {
 
           </div>
         </div>
-        <div className="home-right"></div>
-        <div className = "home-img-box1">
+        </div>
+        <div className="home-right">
         <img className="img1" src = {img1}></img>
+        </div>
         </div>
       </div>
       
