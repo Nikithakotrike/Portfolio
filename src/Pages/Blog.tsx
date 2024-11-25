@@ -1,6 +1,7 @@
 import headshot from '/src/images/Head shot Image.jpeg';
 import aes from '/src/images/Asthetic Image.jpeg';
 import passion from '/src/images/Passion Image.jpeg';
+
 import './Blog.css';
 function Blog() {
     return (
@@ -17,7 +18,6 @@ function Blog() {
           </div>
 
           <div className="image">
-       
        <div className='text'></div>
        <p className='text-centre pt-20 animate-fade-right'>This Image displays more about myself and what I am passionate about,
          Even though I am ambivert major part of me is an introvert and I love reading books,Art and Coloring
@@ -37,7 +37,15 @@ function Blog() {
           Sunlight falling in between from the leaves makes the image  naturally contributing it to an sense of beauty.
        </p>
           </div>
-         
+          <div className="image">
+       <div className='text'></div>
+       <p className='tect-centre  pt-20 animate-fade-right'>As I am person who likes outdoors and enjoy nature a lot and beleive that the 
+          nature is beautiful all the time I feel the image is asthetic as it has an Bold and contrasting colors which are  balanced well, 
+          and  the natural light has also  enhanced the image,giving it a warm, nostalgic feeling, and also the capturing the element of
+          Sunlight falling in between from the leaves makes the image  naturally contributing it to an sense of beauty.
+       </p>
+       <iframe width="360" height="200" src="https://www.youtube.com/embed/0qP28CRNnOQ?si=12lh6jhFLnx6r-RL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
       </div>
     
     );
