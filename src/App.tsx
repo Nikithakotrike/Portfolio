@@ -6,7 +6,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Skills from "./Pages/Skills";
 import Blog from "./Pages/Blog";
-import Contact from "./Pages/Contact"
+import Contact from "./Pages/Contact";
+
 
 function App() {
   return (
