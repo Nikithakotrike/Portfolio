@@ -1,21 +1,120 @@
-body{
-  diaplay:flex;
+
+h1{
+  text-align:centre;
+  margin-top:40px;
+  font-size:50px;
+}
+.Skills-area {
+display:flex;
+flex-direction:column;
+padding :0 20%;
+}
+.skill {
+  position: relative;
+  margin-bottom:40px;
 }
 
-.Skills {
-  font-family: "Delius Swash Caps", cursive;
-  font-size: 300%;
-  font-weight: bold;
-  text-align: center;
- color:#605678;
+.skill-title {
+  font-size:20px;
+  margin-bottom:10px;
 }
 
-.details {
-  font-family: "Twinkle Star", cursive;
-  text-align: center;
-  color:#789DBC;
-  font-size:150%;
+.Skill-bar {
+  width: 100%;
+  height:40px;
+  z-index:-1;
+  border-radius:100px;
+  position:absolute;
+}
+.skill-fill {
+  background-color:7AB2D3;
+  height:40px;
+  border-radius:100px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  padding-right:30px;
+  overflow:hidden;
+}
+.skill-percentage{
+  font-size:30px;
+}
+.tableau{
+  animation: tableau 2s;
+  width:70%
+}
+.PowerBI{
+  animation: PowerBI 2s;
+  width:60% 
+}
+.QlikView{
+  animation: QlikView 2s;
+  width:50% 
+}
+.Communication{
+  animation: tableau 2s;
+  width:90%
+}
+.Adaptability{
+  animation: PowerBI 2s;
+  width:85% 
+}
+.Conflict-Resolution{
+  animation: QlikView 2s;
+  width:80% 
+}
+@keyframes tableau {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
 }
 
-
-
+@keyframes PowerBI {
+  from {
+    width: 0;
+  }
+  to {
+    width:60%;
+  }
+}
+  @keyframes QlikView {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  @keyframes Communication {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  @keyframes Adaptability {
+    from {
+      width: 0;
+    }
+    to {
+      width: 85%;
+    }
+  }
+  @keyframes Conflict-Resolution {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+   
+  @media only screen and (max-width: 750px;){
+    .skills{
+      padding: 0 5%;
+    }
+  }

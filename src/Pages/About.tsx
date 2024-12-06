@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about-container">
     <section className="About" id="About"></section>
-    <div className="About-container container"></div>
+    <div className="About-container container">
             <div className="About-Left"></div>
            <div className = "About-img-box1"></div>
            <img className="imgA" src = {img2}></img>
@@ -34,8 +34,14 @@ function About() {
           and Critical Problem Solving which Provide Solutions by giving meaningful Insights about the data.
            </p>
 
-         
-        
+           <h2>Skills</h2>
+        <p>
+         As a BI Developer I am good with BI tools Like Tableau,PowerBI,Qlikview 
+         For the Data Skills Data Analytics,Data validation
+         Softskills like communication skills 
+           </p>
+
+           </div>
       </div>
     </div>
   );

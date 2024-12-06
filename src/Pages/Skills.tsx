@@ -1,25 +1,53 @@
-import './Skills.css';
+import "./Skills.css";
 
 function Skills() {
-  return (  
-  
-<section id="Skills" className="Skills-body">
-<h2 className='Skills'> BI Tools:</h2>
-<p className="details animate-bounce animate-delay-100"> Tableau</p>
-<p className="details animate-bounce animate-delay-100"> PowerBI</p>
-<p className= "details animate-bounce animate-delay-100"> QlikView</p>
+  return (
+    <div className="Skills">
+      <h4>BI Tools</h4>
+      <div className="Skill-title">Tableau</div>
+      <div className="skill-bar"></div>
+      <div className="Tableau skill-fill">
+        <span className="skill-percent">70%</span>
+      </div>
+      <div className="Skills">
+        <div className="Skill-title">PowerBI</div>
+        <div className="skill-bar"></div>
+        <div className=" PowerBI skill-fill">
+          <span className="skill-percent">60%</span>
+        </div>
+      </div>
+      <div className="Skills">
+        <div className="Skill-title">QlikView</div>
+        <div className="skill-bar"></div>
+        <div className="QlikView skill-fill">
+          <span className="skill-percent">50%</span>
+        </div>
+      </div>
+   
+  <div className="Soft Skills">
+    <h4>Soft Skills</h4>
+  <div className="Skill-title">Communication</div>
+      <div className="skill-bar"></div>
+      <div className="Tableau skill-fill">
+        <span className="skill-percent">90%</span>
+      </div>
+      <div className="Skills">
+        <div className="Skill-title">Adaptability</div>
+        <div className="skill-bar"></div>
+        <div className=" PowerBI skill-fill">
+          <span className="skill-percent">85%</span>
+        </div>
+      </div>
+      <div className="Skills">
+        <div className="Skill-title">Conflict-Resolution</div>
+        <div className="skill-bar"></div>
+        <div className="QlikView skill-fill">
+          <span className="skill-percent">80%</span>
+        </div>
+      </div>
 
-<h2 className='Skills'> Data Analytics:</h2>
-<p className="details animate-bounce animate-delay-10">Data Analysis and Research </p>
-<p className="details animate-bounce animate-delay-10">Trouble shooting</p> 
-<p className="details animate-bounce animate-delay-10">Data Interpretation </p>
-
-<h2 className='Skills'> Soft Skills:</h2>
-<p className="details animate-bounce animate-delay-10">Team Building </p>
-<p className="details animate-bounce animate-delay-10">Adaptability </p> 
-<p className="details animate-bounce animate-delay-10">Conflict Resolution </p>
-</section>
-
+  </div>
+  </div>
   );
 }
 export default Skills;
