@@ -41,6 +41,7 @@
           
         }
     .text p { 
+        display:flex;
         font-size:90px;
-        text-align:center;
+        text-align:centre;
         }

@@ -9,7 +9,7 @@ function Blog() {
       <div className="image">
        <img className="img" src = {headshot}></img>
        <div className='text'></div>
-       <p className='text-center pt-20 animate-fade-left'> This is a simple head shot image with a warm smile and approachable demeanor  
+       <p className='text-centre pt-20 animate-fade-left'> This is a simple head shot image with a warm smile and approachable demeanor  
         which has a clean, white background which  enhances has the  natural lighting that brings warm tones and also captures a sense of 
         warmth, ideal for a personal blog in an portfolio
          </p>
