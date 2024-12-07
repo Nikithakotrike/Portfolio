@@ -9,7 +9,8 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-     <BrowserRouter>
+     <BrowserRouter basename='/Portfolio'>
+     
     <App />
     </BrowserRouter>
   </StrictMode>,

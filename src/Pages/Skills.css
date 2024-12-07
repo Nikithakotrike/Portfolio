@@ -1,15 +1,18 @@
+#Name{
+  margin:5px;
+  text-transform:uppercase;
+  padding:0;
+  text-align:center;
+}
 
 .skillsbody{
-  padding-left:18%;
-  padding-bottom:5%;
-layout:flex;
-flex-wrap:nowrap;
-justify-content:space-around;
-
-//height:50%;
-//align-items:centre;
-flex-direction:column;
-align-items:flex-end;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height:100%;
+  gap:80px;
 }
 
 .skilpic {
@@ -21,46 +24,35 @@ align-items:flex-end;
 }
 
 .tab {
-  float:left;
+
   height:100px;
   width:100px;
   border-radius: 10%;
-  margin-inline-start: 3rem;
-  margin-bottom: 3rem;
   }
 
   .pow {
-    float:left;
+
     height:100px;
     width:100px;
     border-radius: 10%;
-    margin-inline-start: 6rem;
-    margin-bottom: 3rem;
     }
 
     .sql {
-      float:left;
+
       height:100px;
       width:100px;
       border-radius: 10%;
-      margin-inline-start: 9rem;
-      margin-bottom: 3rem;
       }
 
       .exc {
-        float:left;
+
         height:100px;
         width:100px;
         border-radius: 10%;
-        margin-inline-start:12rem;
-        margin-bottom: 3rem;
         }
 
         .dat {
-          float:left;
           height:100px;
           width:100px;
           border-radius: 10%;
-          margin-inline-start: 15rem;
-          margin-bottom: 3rem;
           }

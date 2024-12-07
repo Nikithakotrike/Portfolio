@@ -21,7 +21,7 @@ function App() {
           <nav className="nav comp"></nav>
           <ul className="nav-list">
           <li>
-              <Link to="/Portfolio/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/About">About</Link>
@@ -38,12 +38,10 @@ function App() {
             <li>
               <Link to="/Contact">Contact</Link>
               </li>
-              
-            
           </ul>
         </nav>
         <Routes>
-        <Route path="/Portfolio" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Skills" element={<Skills/>} />
         <Route path="/Blog" element={<Blog/>}/>
