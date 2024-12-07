@@ -9,24 +9,24 @@ import DataAnalysis from '/src/images/Data Analysis.png';
 function Skills() {
   return (
     <section id="Skills" className="skillsbody">
-    <div className="image">
+    <div className="skilpic">
        <img className="tab" src = {tableau}></img>
       
 
-       <div className="image">
+       <div className="skilpic">
 <img className="pow" src = {powerbi}></img>
 
 
-<div className="image">
+<div className="skilpic">
 <img className="sql" src = {mysql}></img>
 
 
-<div className="image">
+<div className="skilpic">
 <img className="exc" src = {excel}></img>
 
 
 
-<div className="image">
+<div className="skilpic">
 <img className="dat" src = {DataAnalysis}></img>
 </div>
 </div>
